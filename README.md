@@ -32,6 +32,7 @@ The canonical mine-tuning example is an interaction where each AI response is gi
 
 ## Examples
 - _["Sense of Humor"](https://github.com/rawwerks/MineTuning/tree/main/examples/sense_of_humor)_ - A playful mine-tuning demo where you can quickly orient an AI to your personal sense of humor. 
+- Many more coming soon...
 
 ---
 
