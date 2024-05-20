@@ -33,6 +33,8 @@ The canonical mine-tuning example is an interaction where each AI response is gi
 ## Examples
 Coming right up!
 
+---
+
 ### Inspiration
 - [DSPy](https://dspy-docs.vercel.app)
 - [MemGPT](https://memgpt.ai/)
