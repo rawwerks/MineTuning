@@ -20,7 +20,7 @@ When we do manage to get something we like, our options to save that are primiti
 
 Mine-tuning is more work up front, because it requires more attention per interaction. In the same way that it is more work to onboard a new employee, the user provides immediate feedback to the AI program during mine-tuning. 
 
-The canonical mine-tuning example is an interaction where each AI response is given both a quantitative rating (ie 1-5) and qualitative feedback. The program retries until a perfect rating (ie 5 stars) is achieved. The program can then be re-optimized using those iterative training examples, either with the response rating as the optimization metric, or another score metric (for example, the reciprocal of the number of attempts required to achieve a perfect rating).
+The canonical mine-tuning example is an interaction where each AI response is given both a quantitative rating (ie 1-5) and qualitative feedback. Optionally, the program retries until a perfect rating (ie 5 stars) is achieved. The program can then be re-optimized using those iterative training examples, either with the response rating as the optimization metric, or another score metric (for example, the reciprocal of the number of attempts required to achieve a perfect rating).
 
 ## Connections to and distinctions from existing methods
 - **How is mine-tuning different from fine-tuning?** The key difference is the approach to training the AI program. If you were going to train another person to do a job, would you hide in a separate room, write down 1000 examples of "if this, then that", then hand it to them and tell them to review it alone? No. You would show them how to do the job, have them shadow you while you do the job, then shadow them while they do the job. With mine-tuning, training datasets are built on-the-job, example by example. Once the training dataset is in place, then traditional fine-tuning can be employed if desired.
@@ -29,6 +29,9 @@ The canonical mine-tuning example is an interaction where each AI response is gi
 - **What is the connection to DSPy?** [DSPy](https://dspy-docs.vercel.app) is a very convenient and powerful way to implement many of the ideas of mine-tuning. Mine-tuning is easily enabled by DSPy's ability to write AI programs instead of prompts, to optimize those programs towards a specific metric, and to swap out program parameters (ie, switch to a different LLM, or different optimization algorithm).
 - **What is the connection to Wekinator?** [Wekinator](http://www.wekinator.org/) was a revolutionary approach to real-time interactive machine learning, developed at Princeton in 2008 by [Rebecca Fiebrink](https://researchers.arts.ac.uk/1594-rebecca-fiebrink/). The "play along learning" paradigm pioneered by Wekinator inspired the on-the-job learning approach of mine-tuning.
 - **How is this different from a personalized AI framework?** It doesn't have to be different. You could argue that [MemGPT](https://memgpt.ai/) is mine-tuned to your preferences. At the same time, mine-tuning doesn't need to involve agentic frameworks, tools, or long-term memory. Mine-tuning could simply be a program that transforms data just the way you like it.
+
+## Examples
+Coming right up!
 
 ### Inspiration
 - [DSPy](https://dspy-docs.vercel.app)
