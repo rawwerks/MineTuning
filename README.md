@@ -31,7 +31,7 @@ The canonical mine-tuning example is an interaction where each AI response is gi
 - **How is this different from a personalized AI framework?** It doesn't have to be different. You could argue that [MemGPT](https://memgpt.ai/) is mine-tuned to your preferences. At the same time, mine-tuning doesn't need to involve agentic frameworks, tools, or long-term memory. Mine-tuning could simply be a program that transforms data just the way you like it.
 
 ## Examples
-Coming right up!
+- _["Sense of Humor"](https://github.com/rawwerks/MineTuning/tree/main/examples/sense_of_humor)_ - A playful mine-tuning demo where you can quickly orient an AI to your personal sense of humor. 
 
 ---
 
