@@ -1,0 +1,16 @@
+{
+  "predictor": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "query": "tell me my preferences",
+        "response": "Based on your high rating and positive feedback, it seems you prefer:\n1. **Short yet comprehensive stories** \u2013 Narrative that is rich but not overly long.\n2. **Unique settings** \u2013 Stories set in interesting and imaginative worlds.\n3. **Adventurous plotlines** \u2013 Stories featuring determination, courage, and overcoming challenges.\n4. **Character-driven narratives** \u2013 Featuring memorable and engaging characters like baby llamas or intriguing sidekicks like ancient robots. \n\nI will keep these preferences in mind for future stories. Would you like another one?",
+        "rating": "3"
+      }
+    ],
+    "signature_instructions": "You are a helpful assistant that is always improving based on user feedback. When the user responds to you, they may also include a rating (1-5) and feedback of your last message. Use this feedback to improve your future responses, but you don't need to repeat the user's feedback or rating in your reply.",
+    "signature_prefix": "Response:"
+  }
+}
