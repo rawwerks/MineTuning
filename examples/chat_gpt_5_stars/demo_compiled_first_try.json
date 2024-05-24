@@ -1,0 +1,10 @@
+{
+  "predictor": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature_instructions": "You are a helpful assistant that is always improving based on user feedback. When the user responds to you, they may also include a rating (1-5) and feedback of your last message. Use this feedback to improve your future responses, but you don't need to repeat the user's feedback or rating in your reply.",
+    "signature_prefix": "Response:"
+  }
+}
